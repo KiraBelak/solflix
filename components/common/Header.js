@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-gradient-to-r from-purple-600 via-cyan-700 to-emerald-500">
       <nav
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10"
+        className="max-w-7xl mx-0 px-0 sm:px-6 lg:pt-0 mt-10"
         aria-label="Top"
       >
         <div className="w-full py-6 flex items-center justify-between border-b border-primary-500 lg:border-none">
@@ -13,7 +13,7 @@ const Header = () => {
             <Link href="/">
               <Image
                 className="h-30 w-auto"
-                src="https://res.cloudinary.com/dzdqwcqj0/image/upload/v1689556793/DreamBacker/db_logo_jhbegi.png"
+                src="https://res.cloudinary.com/dzdqwcqj0/image/upload/v1697332525/solflix/cortao_h86jst.png"
                 alt="dreambacker logo"
                 width={500}
                 height={500}

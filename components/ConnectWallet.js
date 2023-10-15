@@ -114,7 +114,7 @@ export function ConnectWallet(props) {
           color: "black",
           borderRadius: "0px",
           border: "none",
-          paddingLeft: "70px",
+          padding: "0px 2em",
         }}
       />
 

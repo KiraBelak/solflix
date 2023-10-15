@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="bg-primary-600">
+    <header>
       <nav
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10"
         aria-label="Top"

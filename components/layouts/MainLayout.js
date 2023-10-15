@@ -7,7 +7,7 @@ const MainLayout = ({ children, header = true }) => {
     <div className="flex flex-col min-h-screen">
       <Seo />
       {header && <Header />}
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow bg-gradient-to-r from-purple-600 via-cyan-700 to-emerald-500">{children}</main>
       <Footer />
     </div>
   );

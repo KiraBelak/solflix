@@ -45,18 +45,17 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div classname="bg-gradient-to-r from-purple-600 via-cyan-700 to-emerald-500">
       <Toaster position="bottom-center" reverseOrder={false} />
       <MainLayout>
         <div className="page-container mx-0 md:mx-20">
           <div className="hero-section">
             <div className="mx-auto flex flex-col max-w-2xl lg:mx-0">
               <h1 className="font-manrope mt-24 text-4xl font-bold tracking-tight text-white sm:mt-10 sm:text-6xl">
-                Where Dreamers meet Backers{" "}
+                Unique Voices meet Limitless Imagination{" "}
               </h1>
               <p className="font-manrope mt-6 text-xl leading-8 text-white">
-                Fuel Dreams, Ignite Possibilities: Empowering Innovators through
-                Crypto Crowdfunding!
+              Discover a world of captivating independent films: Empowering filmmakers
               </p>
               <div className="flex w-full justify-start items-center">
                 <div className="mt-10 flex justify-between items-center w-2/3">
@@ -66,7 +65,6 @@ export default function Home() {
                     Connect your wallet to explore or create projects{" "}
                   </p>
                   <div className="h-screen absolute right-6">
-                    <ImageCarousel />
                   </div>
                 </div>
               </div>

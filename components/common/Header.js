@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-gradient-to-r from-purple-600 via-cyan-700 to-emerald-500">
       <nav
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10"
         aria-label="Top"

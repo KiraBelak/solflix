@@ -55,20 +55,20 @@ export default function Home() {
                 Unique Voices meet Limitless Imagination{" "}
               </h1>
               <p className="font-manrope mt-6 text-xl leading-8 text-white">
-              Discover a world of captivating independent films: Empowering filmmakers
+                Discover a world of captivating independent films: Empowering
+                filmmakers
               </p>
               <div className="flex w-full justify-start items-center">
                 <div className="mt-10 mr-20 flex justify-around items-center w-full flex-col md:flex-row">
                   <ConnectWallet />
 
                   <p className="hidden md:flex py-2 px-4 text-white rounded-md font-manrope">
-                    Connect your wallet to explore or create projects{" "}
+                    Connect your wallet to explore films{" "}
                   </p>
                   <p className="sm:flex-col md:hidden py-2 px-4 text-white rounded-md font-manrope text-center">
-                    Connect your wallet to explore or create projects{" "}
+                    Connect your wallet to explore films{" "}
                   </p>
-                  <div className="h-screen absolute right-6">
-                  </div>
+                  <div className="h-screen absolute right-6"></div>
                 </div>
               </div>
             </div>

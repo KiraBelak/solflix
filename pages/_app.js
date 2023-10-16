@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import { Wallet } from "@/src/wallet";
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 
-const activeChainId = ChainId.SolanaDevNet;
+const activeChainId = ChainId.Devnet;
 
 export default function MyApp({ Component, pageProps }) {
   return (
